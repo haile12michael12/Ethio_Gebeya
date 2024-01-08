@@ -1,0 +1,19 @@
+.home {
+  padding: 4rem;
+
+  background: linear-gradient(
+    102.2deg,
+    rgb(252, 40, 154) -9.9%,
+    rgb(224, 125, 154) 34.7%,
+    rgb(250, 165, 147) 89.1%
+  );
+  background-image: url("../../../public/none.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.link {
+  text-decoration: none;
+  border: none;
+  padding: 1.5rem;
+  color: palevioletred;
+}

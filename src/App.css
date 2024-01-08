@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+img {
+  width: 100%;
+  display: block;
+}
+
+.parallax {
+  margin-top: 4rem;
+  background-image: url("../public/pexels-konstantin-mishchenko-1926769.jpg");
+  height: 15rem;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
