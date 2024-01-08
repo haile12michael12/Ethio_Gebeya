@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useForm } from "react-hook-form";
-import styles from "./styles.module.css";
+import styles from "./styles.login.css";
 
 function Login() {
   const {

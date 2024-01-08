@@ -1,0 +1,8 @@
+.footer {
+  background: #3ffb3f;
+  background: radial-gradient(
+    circle,
+    #3ffb4f 0%,
+    rgba(131, 81, 212, 0.916) 89%
+  );
+}

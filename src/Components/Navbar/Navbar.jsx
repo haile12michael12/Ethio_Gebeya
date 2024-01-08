@@ -3,7 +3,7 @@ import { Navbar, Nav, Container, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { HiShoppingCart } from "react-icons/hi";
 import { useSelector } from "react-redux";
-
+import styles from "./styles.nav.css";
 const Navbarsection = () => {
   const Counterproducts = useSelector((store) => store.cart.cart);
 
@@ -11,7 +11,7 @@ const Navbarsection = () => {
     <Navbar className="nav border-bottom bg-white sticky-top" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          Bandage
+          Ethio_Gebeya
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">

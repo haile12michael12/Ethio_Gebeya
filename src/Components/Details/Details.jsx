@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Badge, Card } from "react-bootstrap";
-import styles from "./styles.module.css";
+import styles from "./styles.detail.css";
 import { useDispatch } from "react-redux";
 import Rating from "react-rating";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

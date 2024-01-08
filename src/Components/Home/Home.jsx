@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import styles from "./styles.module.css";
+import styles from "./styles.home.css";
 import Brands from "../Brands/Brands";
 import Caroussel from "../Caroussel/Caroussel";
 import Footer from "../Footer/Footer";

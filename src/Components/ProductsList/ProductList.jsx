@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import styles from "./styles.module.css";
+import styles from "./styles.product.css";
 import Rating from "react-rating";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";

@@ -9,7 +9,7 @@ import {
   faTwitter,
   faPinterest,
 } from "@fortawesome/free-brands-svg-icons";
-import styles from "./styles.module.css";
+import styles from "./styles.footer.css";
 
 const Footer = () => {
   return (
@@ -30,12 +30,12 @@ const Footer = () => {
           <Col md={4}>
             <h4 className="pb-2 text-white">Contact Us</h4>
             <p className="text-muted">
-              <i className="fas fa-phone"></i> +1 (123) 456-7890
+              <i className="fas fa-phone"></i> +251 955160603
               <br />
-              <i className="fas fa-envelope"></i> info@example.com
+              <i className="fas fa-envelope"></i> michaelhaile12@yahoo.com
               <br />
-              <i className="fas fa-map-marker-alt"></i> 123 Main Street,
-              Anytown, CA 12345
+              <i className="fas fa-map-marker-alt"></i> AddisAbaba,
+              ethiopia
             </p>
           </Col>
           <Col md={4}>

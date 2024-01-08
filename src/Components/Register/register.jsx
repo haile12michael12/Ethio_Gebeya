@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import styles from "./styles.module.css";
+import styles from "./styles.register.css";
 import React from "react";
 import Select from "react-select";
 import { useForm } from "react-hook-form";
